@@ -23,7 +23,7 @@ Repositories are organized by academic year and semester.
 
 ### **Group 4**
 - **Students:** Daniel Agranat 
-- **Repository:**   
+- **Repository:** https://github.com/gitseb14/AI-Driven-Cybersecurity-Course---HIT  
 
 ### **Group 5**
 - **Students:** Dana Savenko 
