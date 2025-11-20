@@ -27,7 +27,7 @@ Repositories are organized by academic year and semester.
 Each link leads to a student repository containing:
 
 - Lab 1 – MITRE ATT&CK Mapping  
-- Lab 2 – 
+- Lab 2 – Simple Anomaly Detection
 
 Content varies by group depending on chosen datasets, threat report,  
 pipeline configuration, and selected project topic.
