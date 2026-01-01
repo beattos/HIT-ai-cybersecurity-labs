@@ -97,14 +97,12 @@ def describe_dataset(
 
 
 # ---------------------------
-#  OpenAI / OpenRouter config
+#  Provider config
 # ---------------------------
 
-API_HOST = os.getenv("API_HOST", "openrouter")
-
-base_url = os.getenv("API_BASE_URL", "https://openrouter.ai/api/v1")
+base_url = os.getenv("API_BASE_URL")
 api_key = os.getenv("API_KEY")
-model_id = os.getenv("MODEL", "x-ai/grok-4.1-fast:free")
+model_id = os.getenv("MODEL", "qwen/qwen3-32b")
 
 if not api_key:
     raise RuntimeError(
@@ -124,7 +122,7 @@ client = OpenAIChatClient(
 
 agent = ChatAgent(
     chat_client=client,
-    name=os.getenv("AGENT_NAME", "openrouter-data-analysis-demo-agent"),
+    name="openrouter-data-analysis-demo-agent",
     instructions="""
         You are a data analysis agent. You work with small tabular datasets
         that are already loaded into memory and exposed via tools.

@@ -6,3 +6,4 @@ Build the image with `docker buildx build --load -t cybersec-agent-devui .` wher
 - `-t cybersec-agent-devui` - image tag`
 - `.` - path to Dockerfile
 
+Run `docker compose up`

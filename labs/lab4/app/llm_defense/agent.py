@@ -18,6 +18,6 @@ agent = ChatAgent(
     name="hello-world-agent",
     instructions="""
         You're a friendly agent.
-        Ask the user for their name and greet them personally
+        Ask the user for their name and greet them personally.
     """
 )
