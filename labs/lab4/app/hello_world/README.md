@@ -39,7 +39,7 @@ This agent **does not use any tools**.
 
 ## 4. Example Interaction
 
-[image]: dialog_example.png "Example Interaction"
+![Example Interaction](dialog_example.png "Example Interaction")
 
 ---
 
